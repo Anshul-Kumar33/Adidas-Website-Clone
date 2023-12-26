@@ -1,0 +1,1657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.line {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+.line p {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8px;
+}
+
+.nav-bar {
+    height: 80px;
+    width: 100%;
+}
+
+.small {
+    display: flex;
+    float: inline-end;
+    height: 30px;
+}
+
+.small h4 {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 50;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.menu {
+    display: flex;
+    margin-left: -2rem;
+    margin-top: 2rem;
+}
+
+.nav-bar img {
+    height: 35px;
+    width: 55px;
+    margin-top: 20px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+}
+
+.menu h3 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-weight: 100;
+}
+
+input[type=text] {
+    border: 1px solid #eceff1;
+    background-color: #eceff1;
+    padding: 6px;
+    color: black;
+    float: inline-end;
+    transition: all ease 0.5s;
+    padding-left: 8px;
+    position: absolute;
+    left: 68%;
+    top: 12.9%;
+}
+
+input[type=text]:hover {
+    border: 1px solid black;
+}
+
+
+.ri-search-line {
+    border: 1px solid #eceff1;
+    background-color: #eceff1;
+    padding: 6px;
+    padding-bottom: 4.9px;
+    position: absolute;
+    left: 81%;
+    top: 12.9%;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+
+.ri-user-3-line {
+    position: absolute;
+    right: 10rem;
+    top: 5rem;
+    font-size: 25px;
+}
+
+.ri-heart-2-line {
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+    font-size: 25px;
+}
+
+.ri-shopping-bag-line {
+    position: absolute;
+    right: 4rem;
+    top: 5rem;
+    font-size: 25px;
+}
+
+.gray {
+    height: 50px;
+    width: 100%;
+    background-color: #eceff1;
+}
+
+.gray p {
+    text-align: center;
+    padding-top: 15px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.ri-close-line {
+    padding-right: 20px;
+    margin-top: -20px;
+    float: inline-end;
+    font-size: 30px;
+}
+
+#main {
+    height: 30rem;
+    width: 100%;
+}
+
+#main img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main p {
+    color: white;
+    position: absolute;
+    top: 60%;
+    font-size: 1.2rem;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    left: 6%;
+}
+
+.box {
+    position: absolute;
+    top: 70%;
+    display: flex;
+}
+
+
+.box-1 {
+    margin-left: 70px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-1 p:hover {
+    color: #737474;
+    cursor: pointer;
+}
+
+.box-2 p:hover {
+    color: #737474;
+    cursor: pointer;
+}
+
+.box-3 p:hover {
+    color: #737474;
+    cursor: pointer;
+}
+
+.box p {
+    color: black;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.box-2 {
+    margin-left: 20px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.box-3 {
+    margin-left: 20px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gap {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+#scroll-div {
+    position: absolute;
+    top: 112%;
+    height: 530px;
+    background-color: #808080;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.container-1 {
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+#scroll-div img {
+    object-fit: cover;
+    height: 310px;
+    width: 250px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+#scroll-div img:hover {
+    cursor: pointer;
+}
+
+#scroll-div::-webkit-scrollbar {
+    display: none;
+}
+
+
+.boox-1 {
+    position: relative;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.boox-1 h4 {
+    color: white;
+    font-size: 16px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.boox-1 p {
+    color: #d2d1d1;
+    font-size: 12px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.boox-1 a {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+}
+
+.boox-1 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.boox-2 {
+    position: relative;
+    margin-left: 28%;
+    margin-top: -115px;
+}
+
+.boox-2 h4 {
+    color: white;
+    font-size: 16px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.boox-2 p {
+    color: #d2d1d1;
+    font-size: 12px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.boox-2 a {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+}
+
+.boox-2 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+.boox-3 {
+    position: relative;
+    margin-left: 49.7%;
+    margin-top: -115px;
+}
+
+.boox-3 h4 {
+    color: white;
+    font-size: 16px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.boox-3 p {
+    color: #d2d1d1;
+    font-size: 12px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.boox-3 a {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+}
+
+.boox-3 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+.boox-4 {
+    position: relative;
+    margin-left: 71.6%;
+    margin-top: -115px;
+}
+
+.boox-4 h4 {
+    color: white;
+    font-size: 16px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.boox-4 p {
+    color: #d2d1d1;
+    font-size: 12px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.boox-4 a {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+}
+
+.boox-4 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.boox-5 {
+    position: relative;
+    margin-left: 93.5%;
+    margin-top: -115px;
+}
+
+.boox-5 h4 {
+    color: white;
+    font-size: 16px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.boox-5 p {
+    color: #d2d1d1;
+    font-size: 12px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.boox-5 a {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+}
+
+.boox-5 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.boox-6 {
+    position: relative;
+    margin-left: 115%;
+    margin-top: -115px;
+}
+
+.boox-6 h4 {
+    color: white;
+    font-size: 16px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+}
+
+.boox-6 p {
+    color: #d2d1d1;
+    font-size: 12px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.boox-6 a {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+}
+
+.boox-6 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.body {
+    margin-top: 42rem;
+    height: 200px;
+    width: 100%;
+}
+
+.body h2 {
+    margin-left: 70px;
+}
+
+.coontainer {
+    margin-left: 8px;
+}
+
+.coontainer h3 {
+    padding: 70px;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-weight: 800;
+}
+
+.coontainer-2 {
+    margin-top: -80px;
+    margin-left: 8px;
+}
+
+.coontainer-2 h3 {
+    padding: 70px;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-weight: 800;
+}
+
+.body h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.8rem;
+}
+
+.body h3:hover {
+    cursor: pointer;
+}
+
+
+hr {
+    margin-left: 78px;
+    margin-top: -50px;
+}
+
+.line1 {
+    border: .5px solid black;
+    width: 17rem;
+}
+
+
+
+
+.containerr {
+    height: 280px;
+    position: relative;
+    margin-top: 56%;
+    margin-left: 50px;
+    display: grid;
+    padding-top: 70px;
+    gap: 20px;
+    grid-template-columns: 300px 400px 300px;
+}
+
+.column {
+    /* border: 2px solid green; */
+    padding: 20px;
+    font-size: 40px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-weight: 800;
+}
+
+.booody h2 {
+    position: absolute;
+    font-size: 35px;
+    margin-top: -45px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 70px;
+}
+
+
+.you-section {
+    margin-top: 90px;
+}
+
+.you-section h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 2.5rem;
+    word-spacing: .1px;
+
+}
+
+.you-section img {
+    padding: 5px;
+    height: 380px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.containerrr {
+    margin-left: 70px;
+}
+
+.you-section h4 {
+    display: inline;
+    font-size: 1.1rem;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+
+}
+
+
+.button {
+    margin-top: 130px;
+    margin-left: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+
+}
+
+.buttonn {
+    padding: 17px;
+    border: 1px solid black;
+}
+
+.button-1 {
+    background-color: black;
+    color: white;
+}
+
+.button-2 {
+    color: black;
+}
+
+.button-2:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.container4 {
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+
+}
+
+/* .container4::-webkit-scrollbar {
+    display: none;
+} */
+
+.container4::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container4::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.container4::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.container4::-webkit-scrollbar-thumb:hover {
+    background: #eceff1;
+}
+
+.container4::-webkit-scrollbar {
+    height: 4px;
+}
+
+
+
+
+
+.container4 {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 380px;
+    width: auto;
+}
+
+
+.container4 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-1 {
+    width: 25%;
+}
+
+.div-1 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-1 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-1 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-1 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+
+.container4 .div-2 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-2 {
+    width: 25%;
+}
+
+.div-2 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-2 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-2 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-2 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+.container4 .div-3 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-3 {
+    width: 25%;
+}
+
+.div-3 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-3 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-3 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-3 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+.container4 .div-4 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-4 {
+    width: 25%;
+}
+
+.div-4 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-4 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-4 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-4 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+.container4 .div-5 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-5 {
+    width: 25%;
+}
+
+.div-5 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-5 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-5 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-5 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+.container4 .div-6 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-6 {
+    width: 25%;
+}
+
+.div-6 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-6 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-6 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-6 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.container4 .div-7 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-7 {
+    width: 25%;
+}
+
+.div-7 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-7 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-7 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-7 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.container4 .div-8 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-8 {
+    width: 25%;
+}
+
+.div-8 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-8 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-8 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-8 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.container4 .div-9 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-9 {
+    width: 25%;
+}
+
+.div-9 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-9 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-9 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-9 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.container4 .div-10 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-10 {
+    width: 25%;
+}
+
+.div-10 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-10 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-10 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-10 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.container4 .div-11 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-11 {
+    width: 25%;
+}
+
+.div-11 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-11 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-11 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-11 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.container4 .div-12 p {
+    position: relative;
+    margin-top: -29.7px;
+    background-color: white;
+    width: 90px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.div-12 {
+    width: 25%;
+}
+
+.div-12 img {
+    height: 200px;
+    object-fit: cover;
+    width: 220px;
+}
+
+.div-12 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 100;
+}
+
+.div-12 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #767677;
+    font-size: 1rem;
+}
+
+.div-12 h6 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+
+.what h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.image-gallery {
+    cursor: pointer;
+}
+
+.container5 {
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+
+}
+
+.container5::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container5 {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 500px;
+    width: auto;
+}
+
+
+.divv-1 {
+    width: 25%;
+}
+
+.divv-1 img {
+    height: 320px;
+    /* object-fit: cover; */
+    width: 240px;
+}
+
+.divv-1 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 700;
+    word-spacing: -2px;
+}
+
+.divv-1 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #3b3b3b;
+    font-size: .8rem;
+    margin-bottom: 50px;
+    word-spacing: 2px;
+}
+
+
+.divv-1 a {
+    color: black;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+
+}
+
+.divv-1 a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+.divv-2 {
+    width: 25%;
+}
+
+.divv-2 img {
+    height: 320px;
+    /* object-fit: cover; */
+    width: 240px;
+}
+
+.divv-2 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 700;
+    word-spacing: -2px;
+}
+
+.divv-2 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #3b3b3b;
+    font-size: .8rem;
+    margin-bottom: 34px;
+    word-spacing: 2px;
+}
+
+
+.divv-2 a {
+    color: black;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+
+}
+
+.divv-2 a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+.divv-3 {
+    width: 25%;
+}
+
+.divv-3 img {
+    height: 320px;
+    /* object-fit: cover; */
+    width: 240px;
+}
+
+.divv-3 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 700;
+    word-spacing: -2px;
+}
+
+.divv-3 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #3b3b3b;
+    font-size: .8rem;
+    margin-bottom: 28px;
+    word-spacing: 2px;
+}
+
+
+.divv-3 a {
+    color: black;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+
+}
+
+.divv-3 a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.divv-4 {
+    width: 25%;
+}
+
+.divv-4 img {
+    height: 320px;
+    /* object-fit: cover; */
+    width: 240px;
+}
+
+.divv-4 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 700;
+    word-spacing: -2px;
+}
+
+.divv-4 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #3b3b3b;
+    font-size: .8rem;
+    margin-bottom: 50px;
+    word-spacing: 2px;
+}
+
+
+.divv-4 a {
+    color: black;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+
+}
+
+.divv-4 a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.divv-5 {
+    width: 25%;
+}
+
+.divv-5 img {
+    height: 320px;
+    /* object-fit: cover; */
+    width: 240px;
+}
+
+.divv-5 h2 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-size: 1.2rem;
+    margin-top: 12px;
+    font-weight: 700;
+    word-spacing: -2px;
+}
+
+.divv-5 h5 {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    margin-top: 10px;
+    font-weight: 100;
+    color: #3b3b3b;
+    font-size: .8rem;
+    margin-bottom: 50px;
+    word-spacing: 2px;
+}
+
+
+.divv-5 a {
+    color: black;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    font-weight: 700;
+    transition: all ease .5s;
+
+}
+
+.divv-5 a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.Stories {
+    height: 600px;
+    background-color: #f5f5e5;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    display: grid;
+    /* padding-top: 70px; */
+    gap: 20px;
+    grid-template-columns: 50% 45%;
+}
+
+.container8 {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.container8 h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.container8 p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.container9 {
+    /* margin-top: 50px; */
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+.container9 h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.container9 {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+
+.yellow {
+    height: 140px;
+    width: 100%;
+    background-color: #ede734;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.yellow h1  {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.sign-up {
+    height: 50px;
+    width: 250px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.sign-up:hover h3{
+    color: #737474;
+}
+
+.sign-up::after {
+    content: '';
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+}
+
+.sign-up h3 {
+    color: white;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.sub-footer {
+    height: 55vh;
+    width: 100%;
+}
+
+
+.boxes h3,h5 {
+    padding-bottom: 15px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+
+}
+
+.boxes h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.boxes h5 {
+    text-transform: capitalize;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.boxes i {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 45%;
+}
+
+.Box-4 h5 {
+    padding-bottom: 10px;
+}
+
+.containerrrrrrrr {
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #282c31;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.footer h4 {
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.footer hr {
+    height: 25px;
+    width: 1px;
+    position: absolute;
+    bottom: 40%;
+    left: 36%;
+}
+
+#hrrrr {
+    height: 25px;
+    width: 1px;
+    position: absolute;
+    bottom: 40%;
+    left: 54%;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 5%;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
